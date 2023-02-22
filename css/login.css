@@ -1,0 +1,450 @@
+.layout-login {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  padding: 150px 0;
+  overflow-y: auto;
+  background: url("./img/back_login.png") no-repeat center;
+  background-size: cover;
+}
+
+.box-login {
+  width: 100%;
+  max-width: 600px;
+  height: fit-content;
+  box-shadow: 0 0 5px 0 #000;
+}
+
+.box-login .title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 146px;
+  background: #0058aa;
+  -ms-user-select: none;
+  -moz-user-select: -moz-none;
+  -khtml-user-select: none;
+  -webkit-user-select: none;
+  user-select: none;
+}
+
+.box-login .title img {
+  cursor: pointer;
+}
+
+.box-login .contents {
+  position: relative;
+  width: 100%;
+  padding: 40px 103px;
+  border: 1px solid #d8dbdb;
+  border-radius: 0 0 3px 3px;
+  background: #fff;
+}
+
+.tab-logintype {
+  width: 100%;
+  padding: 0 0 8.5px 0;
+  border-bottom: 2px solid #0058aa;
+  -ms-user-select: none;
+  -moz-user-select: -moz-none;
+  -khtml-user-select: none;
+  -webkit-user-select: none;
+  user-select: none;
+}
+
+.tab-logintype > .tab {
+  margin: 0 28px 0 0;
+  cursor: pointer;
+}
+
+.tab-logintype > .tab > span {
+  font-weight: 500;
+  font-size: 1.19rem;
+  color: #aaaaaa;
+}
+
+.tab-logintype > .tab:hover > span {
+  color: #999;
+}
+
+.tab-logintype > .tab > input[type="radio"] {
+  display: none;
+}
+
+.tab-logintype > .tab > input[type="radio"]:checked ~ span {
+  font-weight: 700;
+  color: #0058aa;
+}
+
+.wrap-login {
+  width: 100%;
+  padding: 21px 0 13px 0;
+}
+
+.wrap-login > input {
+  background: #fafafa;
+  font-size: 0.94rem;
+}
+
+.wrap-login > input:first-child {
+  margin: 0 0 17px 0;
+}
+
+.chk-remem-id > span {
+  padding: 0 0 0 22px;
+  background: url("./img/btn-remem-off.png") no-repeat center left;
+  font-weight: 500;
+  font-size: 0.81rem;
+  color: #999;
+  cursor: pointer;
+  -ms-user-select: none;
+  -moz-user-select: -moz-none;
+  -khtml-user-select: none;
+  -webkit-user-select: none;
+  user-select: none;
+}
+
+.chk-remem-id > input[type="checkbox"] {
+  display: none;
+}
+
+.chk-remem-id > input[type="checkbox"]:checked ~ span {
+  background: url("./img/btn-remem-on.png") no-repeat center left;
+  font-weight: 700;
+  color: #000;
+}
+
+.btn-find {
+  background: none;
+  font-weight: 500;
+  font-size: 0.81rem;
+  color: #707070;
+}
+
+.wrap-login-btn {
+  width: 100%;
+  padding: 14px 0 110px 0;
+}
+
+.wrap-login-btn > button:first-child {
+  margin: 0 0 26px 0;
+}
+
+.btn-login {
+  width: 100%;
+  height: 50px;
+  border-radius: 5px;
+  background: #0058aa;
+  box-shadow: 0 3px 5px 0 #ccc;
+  font-weight: 700;
+  font-size: 0.94rem;
+  color: #fff;
+  text-align: ceter;
+}
+
+.btn-sign {
+  width: 100%;
+  height: 50px;
+  border-radius: 5px;
+  background: #00acef;
+  box-shadow: 0 3px 5px 0 #ccc;
+  font-weight: 700;
+  font-size: 0.94rem;
+  color: #fff;
+  text-align: center;
+}
+
+.wrap-login-footer {
+  position: absolute;
+  width: 100%;
+  bottom: 42px;
+  left: 0;
+  text-align: center;
+}
+
+.wrap-login-footer > p {
+  font-size: 0.81rem;
+  color: #707070;
+}
+
+.wrap-login-footer > b {
+  display: flex;
+  align-items: end;
+  justify-content: center;
+  width: 100%;
+  margin: 12px 0 0 0;
+  font-weight: 700;
+  font-size: 0.81rem;
+  color: #707070;
+}
+
+.wrap-login-footer > b > img {
+  margin: 0 4px 0 0;
+}
+
+.wrap-sign-info {
+  padding: 0 0 40px 0;
+  font-weight: 700;
+  font-size: 0.94rem;
+  color: #707070;
+  text-align: center;
+}
+
+.wrap-choice-sign {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.btn-choice-sign {
+  text-align: center;
+  cursor: pointer;
+}
+
+.btn-choice-sign > span {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 185px;
+  height: 120px;
+  margin: 10px 0 0 0;
+  border: 1px solid #eaeaeb;
+  border-radius: 5px;
+  background: #fff;
+  font-weight: 500;
+  font-size: 0.94rem;
+  color: #d8dbdb;
+}
+
+.btn-choice-sign > input[type="radio"]:checked ~ span {
+  border: 2px solid #00a0e9;
+  font-weight: 700;
+  color: #00a0e9;
+}
+
+.btn-choice-sign > input[type="radio"] {
+  border: 1px solid #ccc;
+}
+
+.btn-choice-sign:hover > span {
+  border: 1px solid #ccc;
+  color: #ccc;
+}
+
+.btn-show-terms {
+  width: 100px;
+  height: 30px;
+  border: 1px solid #e2e4e4;
+  border-radius: 5px;
+  background: #fff;
+  font-weight: 500;
+  font-size: 0.81rem;
+  color: #d8dbdb;
+}
+
+.btn-show-terms:hover {
+  border: 1px solid #ccc;
+  color: #bbb;
+}
+
+.wrap-next {
+  padding: 0 0 130px;
+}
+
+.wrap-sign-input {
+  margin: 0 0 18px 0;
+  font-weight: 700;
+  font-size: 0.81rem;
+  color: #707070;
+}
+
+.wrap-sign-input label {
+  font-weight: inherit;
+  font-size: inherit;
+  color: inherit;
+}
+
+.wrap-sign-input input {
+  margin: 8.5px 0 0 0;
+}
+
+.wrap-sign-input b,
+.wrap-sign-info b {
+  font-weight: 700;
+  font-size: 0.81rem;
+  color: #ef4334;
+}
+
+.txt-req-info {
+  margin: 0 0 0 5px;
+  font-weight: 400;
+  font-size: 0.75rem;
+  color: #aaa;
+}
+
+.wrap-split {
+  margin: 30px 0 29px;
+  border-top: 1px solid #d8dbdb;
+}
+
+.wrap-radio {
+  margin: 8.5px 0 0 0;
+}
+
+.wrap-radio input[type="radio"] {
+  margin: 0 11px 0 0;
+}
+
+.wrap-radio label {
+  margin-right: 35px;
+  font-weight: 400;
+  font-size: 1.06rem;
+  color: #222;
+}
+
+.wrap-email {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 8.5px 0 0 0;
+}
+
+.wrap-email > input,
+.wrap-email > select {
+  width: 30%;
+  margin: 0;
+}
+
+.wrap-addr {
+  display: flex;
+  align-items: end;
+  justify-content: space-between;
+}
+.wrap-addr > input:nth-child(1) {
+  width: 90px;
+}
+
+.wrap-addr > input:nth-child(2) {
+  margin: 0 10px;
+}
+
+.member-info {
+  margin: 8.5px 0 11px;
+  font-weight: 500;
+  font-size: 0.81rem;
+  color: #c3c4c0;
+}
+
+.member-list {
+  display: flex;
+  flex-flow: wrap;
+  padding: 20px 23px;
+  background: #f5f5f5;
+}
+
+.member-list > li {
+  width: 115px;
+}
+
+.member-list > li label {
+  font-weight: 500;
+  font-size: 0.94rem;
+  color: #868686;
+}
+
+.member-list > li input[type="checkbox"] {
+  margin: 0 10px 0 0;
+}
+
+.wrap-survey-title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 30px;
+  padding-bottom: 8.5px;
+  border-bottom: 2px solid #0058aa;
+  font-weight: 500;
+  font-size: 1.19rem;
+  color: #0058aa;
+}
+
+.wrap-survey-title > b {
+  margin: 0 15px;
+  font-weight: 500;
+  font-size: 1.19rem;
+  color: #999;
+}
+
+#surveySubmitForm .htable-1 th * {
+  font-weight: inherit;
+  font-size: inherit;
+  color: inherit;
+}
+
+#surveySubmitForm .htable-1 td {
+  font-weight: 500;
+  font-size: 0.81rem;
+  color: #868686;
+}
+
+.warp-survey-form .info {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 100px;
+  padding: 0 50px;
+  border-bottom: 1px solid #2e2c2c;
+}
+
+.warp-survey-form .info > li {
+  padding-bottom: 30px;
+  font-weight: 500;
+  font-size: 1rem;
+  color: #2e2c2c;
+}
+
+.warp-survey-form .info > li > b {
+  margin: 0 0 0 20px;
+  padding: 5px 15px;
+  border-radius: 20px;
+  background: #eee;
+  font-weight: 700;
+  font-size: 1rem;
+  color: #2e2c2c;
+}
+
+#surveySubmitForm td {
+  font-size: 0.94rem !important;
+  color: #2e2c2c !important;
+}
+
+#surveySubmitForm .horizon-layout {
+  display: inline-block !important;
+}
+
+#surveySubmitForm .vertical-layout {
+  display: block !important;
+  width: 100% !important;
+}
+
+#surveySubmitForm .form-radio-wrap > label {
+  white-space: nowrap;
+}
+
+.horizon-layout label {
+  margin-right: 20px !important;
+}
+
+#surveySubmitForm .htable-1 th b {
+  color: red;
+}
+
+#surveySubmitForm .htable-1 caption {
+  margin-bottom: 20px;
+  font-weight: 700;
+  font-size: 1.19rem;
+  color: #2e2c2c;
+  text-align: left;
+}

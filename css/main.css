@@ -1,0 +1,127 @@
+@charset "utf-8";
+fieldset{
+    border: none;
+}
+em{
+    font-style: normal;
+}
+#sec {
+    width: 100%;
+    margin: 0px auto;
+}
+#header > h1{
+    width: 40%;
+}
+#header > h1 > img{
+    width: 70%;
+}
+#header {
+    padding: 20px 37px;
+    border-bottom: 2px solid #222;
+}
+#contentWrap{
+    padding: 20px 0px 60px 20px
+}
+.table-5{
+    margin-bottom: 30px;
+    width: 100%;
+    border-top: 1px solid #868686;
+    border-collapse: collapse;
+    table-layout: fixed;
+}
+.table-5 > thead td{
+    height: 60px;
+    padding: 10px 27px;
+    border-bottom: 1px solid #DCDCDC;
+    background: #FAFAFA;
+    font-weight: 700;
+    color: #2E2C2C;
+    text-align: center;
+}
+.table-5 td{
+    border-right: 1px solid #DEE2E6;
+    height: 60px;
+    padding: 10px 27px;
+    border-bottom: 1px solid #DEE2E6;
+    background: #FFF;
+    font-weight: 500;
+    color: #2E2C2C;
+    text-align: center;
+}
+.table-5 td:last-child{
+    border-right: none;
+}
+.cont{
+    margin: 30px 0;
+}
+.leftCon{
+    float: left;
+    width: 30%;
+    margin-left: -20px;
+}
+.rightCon{
+    float: right;
+    width: 68%;
+    height: 1000px;
+    border: 1px solid #2E2C2C;
+}
+h2.tit{
+    font-size: 1.7em;
+    text-align: center;
+    margin-bottom: 40px;
+    font-weight: 500;
+}
+.table-6{
+    margin-bottom: 50px;
+    width: 100%;
+    border-collapse: collapse;
+    table-layout: fixed;
+}
+.table-6 caption{
+    text-align: left;
+    font-size: 1.1em;
+    color: #403f3f;
+    margin-bottom: 13px;
+    font-weight: 500;
+}
+.table-6 > thead td{
+    height: 60px;
+    padding: 5px;
+    /* border-top: 1px solid #868686; */
+    border-bottom: 1px solid #868686;
+    color: #2E2C2C;
+    text-align: center;
+    font-size: 0.9em;
+}
+.table-6 > tbody th{
+    height: 60px;
+    padding: 10px;
+    border-bottom: 1px solid #DCDCDC;
+    background: #FAFAFA;
+    font-weight: 500;
+    color: #2E2C2C;
+    text-align: center;
+    font-size: 0.9em;
+}
+.b1, .b2 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-justify-content: space-between;
+    justify-content: space-between;
+    -webkit-align-items: center;
+    align-items: center;
+}
+.radio_skin {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-justify-content: space-between;
+    justify-content: space-between;
+    -webkit-align-items: center;
+    align-items: center;
+    min-height: 40px;
+    width: 100%;
+}
